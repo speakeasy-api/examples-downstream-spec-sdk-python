@@ -1,13 +1,19 @@
 workflowVersion: 1.0.0
 speakeasyVersion: latest
 sources:
-  example-api:
-    inputs:
-      - location: registry.speakeasyapi.dev/speakeasy-self/speakeasy-self/example-api@$TAG
-    registry:
-      location: registry.speakeasyapi.dev/speakeasy-self/speakeasy-self/example-api
+    example-api:
+        inputs:
+            - location: registry.speakeasyapi.dev/speakeasy-self/speakeasy-self/example-api@$TAG
+        registry:
+            location: registry.speakeasyapi.dev/speakeasy-self/speakeasy-self/example-api
 targets:
-  python:
-    target: python
-    source: example-api
-    output: .
+    python:
+        target: python
+        source: example-api
+        output: .
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/speakeasy-self/speakeasy-self/example-api-python-code-samples
+            labelOverride:
+                fixedValue: Python (SDK)
+            blocking: false
