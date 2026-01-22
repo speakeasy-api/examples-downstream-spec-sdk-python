@@ -1,6 +1,6 @@
 [project]
 name = "example-api"
-version = "0.0.1"
+version = "0.0.2"
 description = "Example API Python SDK"
 authors = [{ name = "Speakeasy" },]
 readme = "README-PYPI.md"
