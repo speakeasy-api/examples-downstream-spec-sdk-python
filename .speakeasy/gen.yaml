@@ -1,0 +1,16 @@
+configVersion: 2.0.0
+generation:
+  sdkClassName: ExampleAPI
+  maintainOpenAPIOrder: true
+  usageSnippets:
+    optionalPropertyRendering: withExample
+  useClassNamesForArrayFields: true
+  fixes:
+    nameResolutionDec2023: true
+    parameterOrderingFeb2024: true
+    requestResponseComponentNamesFeb2024: true
+python:
+  version: 0.0.1
+  author: Speakeasy
+  packageName: example-api
+  description: Example API Python SDK
