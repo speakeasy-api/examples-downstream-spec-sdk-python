@@ -1,18 +1,18 @@
 lockVersion: 2.0.0
 id: 17860fd8-e3ee-4b25-b406-bfffd8003fb4
 management:
-  docChecksum: b48080c0dac74a66154332b83ca3f024
-  docVersion: 1.1.0
+  docChecksum: a45d1318c993c524db3f9366b8bc8e73
+  docVersion: 1.2.0
   speakeasyVersion: 1.693.0
   generationVersion: 2.798.0
-  releaseVersion: 0.0.2
-  configChecksum: caf4b67bbe49dbe6e113deddfe16f108
+  releaseVersion: 0.1.0
+  configChecksum: c370f58745c8089df7d0e8ee5fe17966
   repoURL: https://github.com/speakeasy-api/examples-downstream-spec-sdk-python.git
   installationURL: https://github.com/speakeasy-api/examples-downstream-spec-sdk-python.git
 persistentEdits:
-  generation_id: 3897ee34-b858-45f8-a4d0-bdd90e4a5021
-  pristine_commit_hash: b82c28cd98b43ffe076cd8585c34c37f44134add
-  pristine_tree_hash: ad545f56fc59618b30a2a74a149c7292b72c1908
+  generation_id: 7ad6b2dd-06da-411f-8984-c3cdfdbf0943
+  pristine_commit_hash: 56396c5f07175143b3be4ee9e56119974d03defc
+  pristine_tree_hash: f83ca75f4970742e15bb245475e1e7d235bd6b70
 features:
   python:
     additionalDependencies: 1.0.0
@@ -70,8 +70,8 @@ trackedFiles:
     pristine_git_object: 000d9930f874a1b01cda74f245fc00e1b6eae49e
   pyproject.toml:
     id: 5d07e7d72637
-    last_write_checksum: sha1:431b987141a62930c79f43c8893960fbbc4d00a9
-    pristine_git_object: 365b90908366a4fd54eddce38bf07d1790df1855
+    last_write_checksum: sha1:4fe6ddc4200a519b36883daa677441ca04b8efa9
+    pristine_git_object: e353b33d5fa75a56effd31cc3dc4d575b1d05dd3
   scripts/prepare_readme.py:
     id: e0c5957a6035
     last_write_checksum: sha1:2aeb3bc6b2e063a0b76351ad37d697944f575122
@@ -98,8 +98,8 @@ trackedFiles:
     pristine_git_object: 43120e473f99f8691e8256168225f1b9806178bc
   src/example_api/_version.py:
     id: 96a9d736d9d4
-    last_write_checksum: sha1:071a99fcf6c6f99626ebd2e8b9627ca819e90976
-    pristine_git_object: 6655abc03d70f305d15d7c63778d0dc4a8e89323
+    last_write_checksum: sha1:879363b70537cb19464907527a2d7480bfa6fe51
+    pristine_git_object: 7c876c1324b71a1746fed92e432de40d67f87571
   src/example_api/basesdk.py:
     id: 6709e8ef6829
     last_write_checksum: sha1:6f33817b8b9598b19db74fee2b905fdc09d20983
