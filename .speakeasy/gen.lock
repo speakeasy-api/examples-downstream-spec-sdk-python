@@ -5,14 +5,14 @@ management:
   docVersion: 1.1.0
   speakeasyVersion: 1.693.0
   generationVersion: 2.798.0
-  releaseVersion: 0.0.1
-  configChecksum: a52d0864cf49d7655c1218e8e6195935
+  releaseVersion: 0.0.2
+  configChecksum: caf4b67bbe49dbe6e113deddfe16f108
   repoURL: https://github.com/speakeasy-api/examples-downstream-spec-sdk-python.git
   installationURL: https://github.com/speakeasy-api/examples-downstream-spec-sdk-python.git
 persistentEdits:
-  generation_id: b0cedca2-231e-457b-856b-205a2e574356
-  pristine_commit_hash: a3c4d144a0f78b32f539b9ffc9452869eb2f34a0
-  pristine_tree_hash: d731944b9c39de4634a73419ff813a678a8f3306
+  generation_id: 3897ee34-b858-45f8-a4d0-bdd90e4a5021
+  pristine_commit_hash: b82c28cd98b43ffe076cd8585c34c37f44134add
+  pristine_tree_hash: ad545f56fc59618b30a2a74a149c7292b72c1908
 features:
   python:
     additionalDependencies: 1.0.0
@@ -70,8 +70,8 @@ trackedFiles:
     pristine_git_object: 000d9930f874a1b01cda74f245fc00e1b6eae49e
   pyproject.toml:
     id: 5d07e7d72637
-    last_write_checksum: sha1:9aee56abe7c70a2c998c589076d2a96521ee1a20
-    pristine_git_object: 6ecab08bae2d1d5df317fa2bc60a250e51be9aee
+    last_write_checksum: sha1:431b987141a62930c79f43c8893960fbbc4d00a9
+    pristine_git_object: 365b90908366a4fd54eddce38bf07d1790df1855
   scripts/prepare_readme.py:
     id: e0c5957a6035
     last_write_checksum: sha1:2aeb3bc6b2e063a0b76351ad37d697944f575122
@@ -98,8 +98,8 @@ trackedFiles:
     pristine_git_object: 43120e473f99f8691e8256168225f1b9806178bc
   src/example_api/_version.py:
     id: 96a9d736d9d4
-    last_write_checksum: sha1:b1a240a8bde66d0c46d6dd972c7412284eb1b03e
-    pristine_git_object: 25423239dbface6efbf9dc7cebec9dcc9cfc626e
+    last_write_checksum: sha1:071a99fcf6c6f99626ebd2e8b9627ca819e90976
+    pristine_git_object: 6655abc03d70f305d15d7c63778d0dc4a8e89323
   src/example_api/basesdk.py:
     id: 6709e8ef6829
     last_write_checksum: sha1:6f33817b8b9598b19db74fee2b905fdc09d20983
