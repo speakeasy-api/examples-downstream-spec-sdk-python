@@ -44,21 +44,21 @@ Example API: A simple example API to demonstrate spec repo SDK generation workfl
 <!-- Start Table of Contents [toc] -->
 ## Table of Contents
 <!-- $toc-max-depth=2 -->
-* [Example API Python SDK](#example-api-python-sdk)
-  * [Overview](#overview)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Related](#related)
-  * [SDK Installation](#sdk-installation)
-  * [IDE Support](#ide-support)
-  * [SDK Example Usage](#sdk-example-usage)
-  * [Available Resources and Operations](#available-resources-and-operations)
-  * [Retries](#retries)
-  * [Error Handling](#error-handling)
-  * [Server Selection](#server-selection)
-  * [Custom HTTP Client](#custom-http-client)
-  * [Resource Management](#resource-management)
-  * [Debugging](#debugging)
+* [Example API Python SDK](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#example-api-python-sdk)
+  * [Overview](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#overview)
+  * [Installation](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#installation)
+  * [Usage](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#usage)
+  * [Related](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#related)
+  * [SDK Installation](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#sdk-installation)
+  * [IDE Support](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#ide-support)
+  * [SDK Example Usage](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#sdk-example-usage)
+  * [Available Resources and Operations](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#available-resources-and-operations)
+  * [Retries](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#retries)
+  * [Error Handling](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#error-handling)
+  * [Server Selection](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#server-selection)
+  * [Custom HTTP Client](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#custom-http-client)
+  * [Resource Management](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#resource-management)
+  * [Debugging](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/#debugging)
 
 <!-- End Table of Contents [toc] -->
 
@@ -188,11 +188,11 @@ asyncio.run(main())
 <details open>
 <summary>Available methods</summary>
 
-### [ExampleAPI SDK](docs/sdks/exampleapi/README.md)
+### [ExampleAPI SDK](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/docs/sdks/exampleapi/README.md)
 
-* [list_users](docs/sdks/exampleapi/README.md#list_users) - List all users
-* [create_user](docs/sdks/exampleapi/README.md#create_user) - Create a user
-* [get_user](docs/sdks/exampleapi/README.md#get_user) - Get a user
+* [list_users](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/docs/sdks/exampleapi/README.md#list_users) - List all users
+* [create_user](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/docs/sdks/exampleapi/README.md#create_user) - Create a user
+* [get_user](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/docs/sdks/exampleapi/README.md#get_user) - Get a user
 
 </details>
 <!-- End Available Resources and Operations [operations] -->
@@ -239,7 +239,7 @@ with ExampleAPI(
 <!-- Start Error Handling [errors] -->
 ## Error Handling
 
-[`ExampleAPIError`](./src/example_api/errors/exampleapierror.py) is the base class for all HTTP error responses. It has the following properties:
+[`ExampleAPIError`](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/./src/example_api/errors/exampleapierror.py) is the base class for all HTTP error responses. It has the following properties:
 
 | Property           | Type             | Description                                            |
 | ------------------ | ---------------- | ------------------------------------------------------ |
@@ -276,7 +276,7 @@ with ExampleAPI() as ea_client:
 
 ### Error Classes
 **Primary error:**
-* [`ExampleAPIError`](./src/example_api/errors/exampleapierror.py): The base class for HTTP error responses.
+* [`ExampleAPIError`](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/./src/example_api/errors/exampleapierror.py): The base class for HTTP error responses.
 
 <details><summary>Less common errors (5)</summary>
 
@@ -288,8 +288,8 @@ with ExampleAPI() as ea_client:
     * [`httpx.TimeoutException`](https://www.python-httpx.org/exceptions/#httpx.TimeoutException): HTTP request timed out.
 
 
-**Inherit from [`ExampleAPIError`](./src/example_api/errors/exampleapierror.py)**:
-* [`ResponseValidationError`](./src/example_api/errors/responsevalidationerror.py): Type mismatch between the response data and the expected Pydantic model. Provides access to the Pydantic validation error via the `cause` attribute.
+**Inherit from [`ExampleAPIError`](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/./src/example_api/errors/exampleapierror.py)**:
+* [`ResponseValidationError`](https://github.com/speakeasy-api/examples-downstream-spec-sdk-python/blob/master/./src/example_api/errors/responsevalidationerror.py): Type mismatch between the response data and the expected Pydantic model. Provides access to the Pydantic validation error via the `cause` attribute.
 
 </details>
 <!-- End Error Handling [errors] -->
